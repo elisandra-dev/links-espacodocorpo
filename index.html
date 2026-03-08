@@ -1,24 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espaço do Corpo - Links</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço do Corpo - Links</title>
+    <style>
+        /* Estilos do Site */
+        body {
+            background-color: #121212; /* Fundo preto moderno */
+            color: #ffffff; /* Texto branco */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            color: #1976d2; /* Azul da logo */
+        }
+
+        header p {
+            font-size: 16px;
+            color: #aaaaaa;
+            margin-bottom: 30px;
+        }
+
+        /* Botões de Link */
+        .link-button {
+            display: block;
+            background-color: #d32f2f; /* Vermelho vibrante */
+            color: white;
+            padding: 16px;
+            margin: 12px 0;
+            text-decoration: none;
+            border-radius: 30px; /* Botões arredondados modernos */
+            font-weight: bold;
+            border: 2px solid transparent;
+            transition: 0.3s;
+        }
+
+        .link-button:hover {
+            background-color: transparent;
+            border-color: #1976d2; /* Borda azul no hover */
+            color: #1976d2;
+            transform: scale(1.05);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="profile-pic"></div>
-            <h1>Espaço do Corpo</h1>
-            <p>Sua saúde em primeiro lugar 💪</p>
-        </header>
+    <div class="container">
+        <header>
+            <h1>Espaço do Corpo</h1>
+            <p>Sua saúde em primeiro lugar 💪</p>
+        </header>
 
-        <main>
-            <a href="https://wa.me/55DDD9XXXXXXXX" class="link-button">Matrículas via WhatsApp</a>
-            <a href="#" class="link-button">Nossos Planos</a>
-            <a href="https://goo.gl/maps/exemplo" class="link-button">Ver Localização</a>
-        </main>
-    </div>
+        <main>
+            <a href="https://wa.me/SEUNUMERO" target="_blank" class="link-button">Matrículas via WhatsApp</a>
+            <a href="#" class="link-button">Nossos Planos</a>
+            <a href="https://maps.google.com" target="_blank" class="link-button">Ver Localização</a>
+        </main>
+
+        <div class="footer">
+            Desenvolvido por Elisandra Dev
+        </div>
+    </div>
 </body>
 </html>
